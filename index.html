@@ -15,17 +15,21 @@ html, body {
     justify-content: center;
     align-items: center;
 }
+
 a {
     display: flex;
-    justify-content: center;
     align-items: center;
     text-decoration: none;
+    color: orange;
+    gap: 10px;
     transition: transform 0.3s ease, filter 0.3s ease;
 }
+
 a:hover img {
     transform: scale(1.2);
-    filter: brightness(1.5) drop-shadow(0 0 5px orange);
+    filter: brightness(2) drop-shadow(0 0 10px yellow) drop-shadow(0 0 20px yellow) drop-shadow(0 0 30px yellow);
 }
+
 img {
     max-width: 35%;
     max-height: 35%;
