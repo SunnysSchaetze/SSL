@@ -23,11 +23,12 @@ a {
 }
 a:hover img {
     transform: scale(1.2);
-    filter: brightness(1.5) drop-shadow(0 0 5px orange);
+    filter: brightness(1.5) drop-shadow(0 0 10px orange);
 }
 img {
-    width: clamp(2rem, 10vw, 10rem);
-    height: auto;
+    width: auto;
+    height: 50%; /* Füllt 50% der Höhe des Bildschirms */
+    max-width: 90%; /* Füllt bis zu 90% der Breite */
     display: block;
 }
 </style>
